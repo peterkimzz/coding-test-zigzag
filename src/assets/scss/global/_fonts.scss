@@ -1,0 +1,66 @@
+@import './variables';
+
+@font-face {
+  font-family: 'Nanum Barun Gothic';
+  src: url('~assets/fonts/NanumBarunGothic.ttf') format('truetype');
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: 'Nanum Barun Gothic';
+  src: url('~assets/fonts/NanumBarunGothicBold.ttf') format('truetype');
+
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: 'Nanum Barun Gothic';
+  src: url('~assets/fonts/NanumBarunGothicLight.ttf') format('truetype');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Nanum Barun Gothic';
+  src: url('~assets/fonts/NanumBarunGothicUltraLight.ttf') format('truetype');
+  font-weight: 200;
+}
+
+body {
+  font-size: 14px;
+  font-weight: 500;
+  word-break: keep-all;
+  color: $--color-text-primary;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  @media (min-width: 1128px) {
+    font-size: 16px;
+  }
+}
+
+* {
+  box-sizing: border-box;
+  font-family: 'Nanum Barun Gothic', sans-serif;
+  line-height: 1.8;
+}
+
+a {
+  color: $--color-text-primary;
+  transition: 0.2s;
+  text-decoration: none;
+
+  &:hover {
+    color: $--color-primary;
+    text-decoration: underline;
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  line-height: 1.15;
+  font-weight: bold;
+}

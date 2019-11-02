@@ -1,0 +1,20 @@
+# dependencies
+node_modules
+
+# logs
+npm-debug.log
+yarn-error.log
+
+# Nuxt build
+.nuxt
+
+# Nuxt generate
+dist
+
+# Redis
+dump.rdb
+
+# Code Editor
+.idea
+.DS_Store
+.editorconfig
