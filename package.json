@@ -15,7 +15,7 @@
     "@nuxtjs/style-resources": "^1.0.0",
     "element-ui": "^2.4.11",
     "nuxt": "^2.8.1",
-    "open-color": "^1.7.0",
+    "open-color": "^1.9.1",
     "vue-burger-menu": "^1.0.3",
     "vue-clamp": "^0.2.2",
     "vue-moment": "^4.0.0",
